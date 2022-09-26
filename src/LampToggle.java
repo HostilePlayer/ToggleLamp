@@ -34,16 +34,21 @@ public class LampToggle {
             }
             //brugeren vælger lamp
             if (valg > 0 && valg <= 5) {
-                if (valg == 1)
+                if (valg == 1) {
                     selectedLamp = lampe1;
-                else if (valg == 2)
+                }
+                else if (valg == 2) {
                     selectedLamp = lampe2;
-                else if (valg == 3)
+                }
+                else if (valg == 3) {
                     selectedLamp = lampe3;
-                else if (valg == 4)
+                }
+                else if (valg == 4) {
                     selectedLamp = lampe4;
-                else if (valg == 5)
+                }
+                else if (valg == 5) {
                     selectedLamp = lampe5;
+                }
                 //tager brugerns valg og putter den til medtoden toggle
                 selectedLamp.toggle();
             }
